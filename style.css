@@ -1,0 +1,25 @@
+#loader {
+	position: fixed;
+	z-index: 2;
+
+	width: 0px;
+	height: 10px;
+
+	top: 0px;
+	left: 0px;
+	transition: 1s ease;
+	background: linear-gradient(30deg, hsl(80, 50%, 50%), hsl(150, 50%, 50%));
+}
+
+#warning {
+	position: fixed;
+	z-index: 3;
+
+	width: 500px;
+	height: 40px;
+
+	font-size: 13px;
+	padding: 0px;
+
+	top: 20px;
+	left: calc(50% - 250px);
